@@ -55,11 +55,6 @@ function initDots(txt,opts) {
 	ct.clearRect(0, 0, cW, cH);
 	tmpC.clearRect(0, 0, cW, cH);
 	
-	//ct.fillStyle = "white";
-	//ct.fillRect(0, 0, cW, cH);
-
-	//tmpC.fillStyle = "white";
-	//tmpC.fillRect(0, 0, cW, cH);
 
 	ct.fillStyle = opts.fillStyle || "black";
 	ct.strokeStyle= opts.strokeStyle || "black";
@@ -82,14 +77,8 @@ function initDots(txt,opts) {
 	if (!opts.stroke && !opts.fill) {
 		ct.strokeText(txt, x, y);	
 	}
-	//let abc = createCanvas(cW,cH).getContext("2d");
-	//abc.putImageData(ct.getImageData(0,0,cW,cH),0,0);
-	//document.body.appendChild(abc.canvas);
-	//tmpC.font = settings.dots.font + "px Arial black";
-	//tmpC.fillStyle = "black";
-	//tmpC.fillText(txt, x, y);
 
-	edges = /*getEdgeMapBlack(ct.canvas, 4); //*/ ct.getImageData(0, 0, cW, cH);
+	edges = ct.getImageData(0, 0, cW, cH);
 	
 	//tmpC.putImageData(edges, 0, 0);
 	//document.body.appendChild(tmpCn);

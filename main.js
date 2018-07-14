@@ -156,12 +156,12 @@ var carousel = [
 			font:100,
 			stroke:"rgba(0,0,0,1)",
 			lineWidth:0,
-			strokeRadius:0,
+			strokeRadius:5,
 			radius:1,
 			margin:0.02,
 			useImg:false,
 			gravity:0.5,
-			randomSpeed:0.5,
+			randomSpeed:1,
 
 			parseColors:true,
 			mass:0.5,
@@ -257,7 +257,7 @@ var carousel = [
 	// 	initDots("Dots",{/*width:width,height:height,*/font:100,stroke:"rgba(250,250,250,1)",lineWidth:0,strokeRadius:0,radius:2,margin:1,useImg:false,mouseGravity:9,spawnSpeed:0.5});
 	// },
 	function() {
-		initSplits("Splits",{font:100,fill:"rgba(0,0,255,0.8)",lineWidth:0,strokeRadius:0,radius:1.5,splitSize:10,spawnSpeed:1.5,randomStart:true,randomSort:true,mouseGravity:5,angMass:100});
+		initSplits("Splits",{font:100,fill:"rgba(0,0,255,0.8)",splitSize:10,spawnSpeed:1.5,randomStart:true,randomSort:true,mouseGravity:5,angMass:100});
 	},
 	function() {
 		
