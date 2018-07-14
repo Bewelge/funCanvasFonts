@@ -6,10 +6,10 @@ Currently features four different techniques of rendering Fonts on Canvas.
 
 **Please note that these are quite experimental and often computationally demanding techniques. They might significantly slow down your App if used.**
 
- * Dots
+ * #Dots
  
- * Jitter
+ * #Jitter
  
- * SVG Path ( Uses OpenFont.js )
+ * #SVG Path ( Uses OpenFont.js )
  
- * Hanging Letters
+ * #Hanging Letters
