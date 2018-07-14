@@ -8,26 +8,26 @@ Currently features four different techniques of rendering Fonts on Canvas.
 
  ### Dots
  
- ![dotImg](https://github.com/Bewelge/funCanvasFonts/blob/master/Dots.png?raw=true)
+ ![dotImg](https://github.com/Bewelge/funCanvasFonts/blob/master/img/Dots.png?raw=true)
  
  
  ### Splits
  
- ![splitImg](https://github.com/Bewelge/funCanvasFonts/blob/master/Splits.png?raw=true)
+ ![splitImg](https://github.com/Bewelge/funCanvasFonts/blob/master/img/Splits.png?raw=true)
  
  
  ### Jitter
  
- ![jitterImg](https://github.com/Bewelge/funCanvasFonts/blob/master/jitter.png?raw=true)
+ ![jitterImg](https://github.com/Bewelge/funCanvasFonts/blob/master/img/jitter.png?raw=true)
  
  
  ### SVG Path ( Uses OpenFont.js )
  
- ![SVGImg](https://github.com/Bewelge/funCanvasFonts/blob/master/SvgPath.png?raw=true)
+ ![SVGImg](https://github.com/Bewelge/funCanvasFonts/blob/master/img/SvgPath.png?raw=true)
 
 ### Hanging Letters
 
-![hangingImg](https://github.com/Bewelge/funCanvasFonts/blob/master/hangin.png?raw=true)
+![hangingImg](https://github.com/Bewelge/funCanvasFonts/blob/master/img/hangin.png?raw=true)
 
 
 
